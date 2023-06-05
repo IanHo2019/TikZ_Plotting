@@ -1,0 +1,18 @@
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=2.0]
+        \draw[->] (0,0) --(3.5,0) node[right] {$x_1$};
+        \draw[->](0,0) --(0,3.5) node[above]{$x_2$};
+        \draw[densely dotted] (1,0) -- (1,1) -- (0,1);
+        \draw[domain=0:1.5, smooth, variable=\x, red, line width=1pt] plot ({\x}, {3-2*\x});
+        \draw[domain=0:3, smooth, variable=\x, blue, line width=1pt] plot ({\x}, {1.5-0.5*\x});
+        \draw[main, line width=2.5pt] (0,3.1) -- (1.035,1.035) -- (3.1,0);
+        \node[below] at (1,0) {$\frac{y}{3}$};
+        \node[left] at (0,1) {$\frac{y}{3}$};
+        \node[below] at (3,0) {$y$};
+        \node[left] at (0,3) {$y$};
+        \node[below] at (1.9,0) {\color{red}$2x_1 + x_2 = y$};
+        \node[left] at (0,1.5) {\color{blue}$x_1 + 2x_2 = y$};
+        \node[right] at (1.5,0.9) {\color{main}$\min\{2x_1+x_2, x_1+2x_2\} = y$};
+    \end{tikzpicture}
+\end{figure}
