@@ -12,7 +12,7 @@ TikZ and PGF are languages commonly used in [LaTeX](https://www.latex-project.or
 
 To replicate the plots we create in the following sections, you must type the codes below in your LaTeX preamble.
 ```latex
-\usepackage{graphicx, float, asymptote, pgfplots}
+\usepackage{graphicx, float, asymptote, pgfplots, xcolor}
 \pgfplotsset{compat=1.18}
 \usetikzlibrary{calc, calligraphy, decorations.pathreplacing, patterns, shapes.misc}
 ```
@@ -27,7 +27,14 @@ To replicate the plots we create in the following sections, you must type the co
    * `decorations.pathreplacing` (defining decorations that replace the to-be-decorated path by another path);
    * `patterns` (providing different patterns for filling in area);
    * `shapes.misc` (defining additional shapes).
-
+ * The `xcolor` package ([documentation](https://ctan.org/pkg/xcolor)) allows us to select colors for hyper references, url links, plotting figures, etc. The basic color (e.g., blue and red) can be used directly by typing `\color{color_name}` to use it in the document. If additional colors are needed, we suggest to name the color first (for convenient future use) by the `\definecolor{new_color_name}{RGB}{#,#,#}` command, and then use the `\color{new_color_name}` command. The [RGB model](https://en.wikipedia.org/wiki/RGB_color_model) is our preferred model, but other models (e.g., `rgb`, `HTML`, `HSB`, etc.) are also available. There are some good websites to search for color codes:
+   * For RGB model, see [here](https://www.rapidtables.com/web/color/RGB_Color.html).
+   * For HTML model, see [here](https://htmlcolorcodes.com/).
+ * Our self-defined colors that are used in plotting are shown below:
+```latex
+\definecolor{main}{RGB}{0,166,82}
+\definecolor{second}{RGB}{32,178,170}
+```
 
 ## Functions
 
