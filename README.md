@@ -40,3 +40,9 @@ To replicate the plots we create in the following sections, you must type the co
 
 ### Leontief Production Function
 [<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Functions)/Leontief_Production_Function.png" title="Leontief Production Function" alt="Leontief Production Function" width="435.9" height="349.2"/>](./Coding/Leontief_Production_Function.tex)
+
+
+## Game Trees
+
+### Predation Game
+[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Game_Trees)/Predation_Game_with_Weak_PBE.png" title="Predation Game" alt="Predation Game" width="395.33" height="264.67"/>](./Coding/Predation_Game_with_Weak_PBE.tex)
