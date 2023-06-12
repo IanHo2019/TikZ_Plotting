@@ -38,6 +38,9 @@ To replicate the plots we create in the following sections, you must type the co
 
 ## Functions
 
+### Cobb-Douglas Production Function
+[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Functions)/Dynamics_of_Solow_Model.png" title="Dynamics of Solow Model" alt="Dynamics of Solow Model" width="514" height="321.3"/>](./Coding/Dynamics_of_Solow_Model.tex)
+
 ### Leontief Production Function
 [<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Functions)/Leontief_Production_Function.png" title="Leontief Production Function" alt="Leontief Production Function" width="435.9" height="349.2"/>](./Coding/Leontief_Production_Function.tex)
 
