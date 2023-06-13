@@ -12,9 +12,15 @@ TikZ and PGF are languages commonly used in [LaTeX](https://www.latex-project.or
 
 To replicate the plots we create in the following sections, you must type the codes below in your LaTeX preamble.
 ```latex
-\usepackage{graphicx, float, asymptote, pgfplots, xcolor}
+\usepackage{graphicx, float, asymptote, pgfplots}
 \pgfplotsset{compat=1.18}
 \usetikzlibrary{calc, calligraphy, decorations.pathreplacing, patterns, shapes.misc}
+
+\usepackage{xcolor}
+\definecolor{main}{RGB}{0,166,82}
+\definecolor{second}{RGB}{32,178,170}
+
+\usepackage{amsmath, amssymb, bbm, dutchcal}
 ```
 **Note:**
  * The `graphicx` package ([documentation](https://ctan.org/pkg/graphicx)) provides some useful optional arguments to the `\includegraphics` command.
@@ -30,11 +36,10 @@ To replicate the plots we create in the following sections, you must type the co
  * The `xcolor` package ([documentation](https://ctan.org/pkg/xcolor)) allows us to select colors for hyper references, url links, plotting figures, etc. The basic color (e.g., blue and red) can be used directly by typing `\color{color_name}` to use it in the document. If additional colors are needed, we suggest to name the color first (for convenient future use) by the `\definecolor{new_color_name}{RGB}{#,#,#}` command, and then use the `\color{new_color_name}` command. The [RGB model](https://en.wikipedia.org/wiki/RGB_color_model) is our preferred model, but other models (e.g., `rgb`, `HTML`, `HSB`, etc.) are also available. There are some good websites to search for color codes:
    * For RGB model, see [here](https://www.rapidtables.com/web/color/RGB_Color.html).
    * For HTML model, see [here](https://htmlcolorcodes.com/).
- * Our self-defined colors that are used in plotting are shown below:
-```latex
-\definecolor{main}{RGB}{0,166,82}
-\definecolor{second}{RGB}{32,178,170}
-```
+ * The `amsmath` package ([documentation](https://ctan.org/pkg/amsmath)) is a principal package for mathematical typesetting. Once `amsmath` is loaded, the packages `amsbsy` (for bold symbols), `amsopn` (for operator names) and `amstext` (for text embedded in mathematics) are also loaded.
+ * The `amssymb` package provides an extended symbol collection, especially including some additional binary relation symbols (e.g., `\boxdot`, `\boxplus`, `\boxtimes`). Something noteworthy is that this package provides the `\mathbb{ }` command for producing blackboard bold characters.
+ * The `bbm` package ([documentation](https://ctan.org/pkg/bbm)) provides blackboard variants of characters in math mode. The command is `\mathbbm{ }`, which produces the blackboard bold characters slighly different from those produced by `\mathbb{ }`.
+ * The `dutchcal` package ([documentation](https://ctan.org/pkg/dutchcal)) reworks the mathematical calligraphic font ESSTIX13 in the package `esstix` ([documentation](https://ctan.org/pkg/esstix)) and adds a bold version.
 
 ## Functions
 
@@ -49,3 +54,9 @@ To replicate the plots we create in the following sections, you must type the co
 
 ### Predation Game
 [<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Game_Trees)/Predation_Game_with_Weak_PBE.png" title="Predation Game" alt="Predation Game" width="395.33" height="264.67"/>](./Coding/Predation_Game_with_Weak_PBE.tex)
+
+
+## Shaded Areas
+
+### Budget Set of a Consumer in a Two-Commodity Market
+[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Shaded_Areas)/Budget_Set.png" title="Budget Set" alt="Budget Set" width="295.3" height="291"/>](./Coding/Budget_Set.tex)
