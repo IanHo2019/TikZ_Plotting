@@ -1,11 +1,13 @@
 # Using TikZ and PGF to Plot in LaTeX
-This repository shares TikZ coding (written by Ian He and JaeSeok Oh) to create plots in LaTeX. To see the coding for each plot in the following section, please click the figure and the hyperlink will lead you to our corresponding tex file. Comments are always welcomed.
+This repository shares TikZ coding (written by Ian He and JaeSeok Oh) to create plots in LaTeX. To see the coding for any plot in the following sections, please click the figure. The hyperlink will lead you to our corresponding tex file.
 
 **Contact:**
 
 :disguised_face: Ian: ianho0815@outlook.com.
   
 :sunglasses: JaeSeok: jaeseok@ou.edu.
+
+Comments are always welcomed!
 
 ## Introduction
 TikZ and PGF are languages commonly used in [LaTeX](https://www.latex-project.org/) for producing vector graphics, with lots of wonderful features including the drawing of points, lines, arrows, and shapes. More precisely, PGF is a lower-level language, while TikZ is a set of higher-level macros that use PGF.
@@ -63,7 +65,11 @@ To replicate the plots we create in the following sections, you must type the co
 ### Predation Game
 [<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Game_Trees)/Predation_Game_with_Weak_PBE.png" title="Predation Game" alt="Predation Game" width="338.9" height="226.9"/>](./Coding/Predation_Game_with_Weak_PBE.tex)
 
+
 ## Shaded Areas
 
 ### Budget Set of a Consumer in a Two-Commodity Market
 [<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Shaded_Areas)/Budget_Set.png" title="Budget Set" alt="Budget Set" width="295.3" height="291"/>](./Coding/Budget_Set.tex)
+
+### Input Requirement Set and Isoquant Curve
+[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Shaded_Areas)/Input_Requirement_Set.png" title="Input Requirement Set" alt="Input Requirement Set" width="309.3" height="279.3"/>](./Coding/Input_Requirement_Set.tex)
