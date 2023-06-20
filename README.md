@@ -46,6 +46,9 @@ To replicate the plots we create in the following sections, you must type the co
 
 ## Functions
 
+### Best Response Function
+[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Functions)/Best_Response_with_Continuous_NE.png" title="Best Response with a Continuum of NE" alt="Best Response with a Continuum of NE" width="330.2" height="230.7"/>](./Coding/Best_Response_with_Continuous_NE.tex)
+
 ### Cobb-Douglas Production Function
 [<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Functions)/Dynamics_of_Solow_Model.png" title="Dynamics of Solow Model" alt="Dynamics of Solow Model" width="440.6" height="275.4"/>](./Coding/Dynamics_of_Solow_Model.tex)
 
