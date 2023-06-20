@@ -1,0 +1,22 @@
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=1.1]
+        \draw[->] (0, 0) -- (5, 0) node[right] {$s_1$};
+        \draw[->] (0, 0) -- (0, 5) node[above] {$s_2$};
+        \draw[domain=0:4.5, smooth, variable=\x, red, line width=1.5pt] plot ({\x}, {-\x+4.45});
+        \draw[line width=1.5pt, red] (4.5,-0.05) -- (4.5,4.5);
+        \draw[domain=0:4.5, smooth, variable=\x, blue, line width=1.5pt] plot ({\x}, {-\x+4.55});
+        \draw[line width=1.5pt, blue] (0,4.55) -- (4.5,4.55);
+        \draw[domain=0:4.5, smooth, variable=\x, main, line width=1.5pt] plot ({\x}, {-\x+4.5});
+        \fill[main] (4.5,4.52) circle (3pt);
+        \node[left] at (0,4.5) {$1$};
+        \node[below] at (4.5,0) {$1$};
+        \node at (-0.15,-0.15) {$0$};
+        \node[above] at (2.25,4.55) {\color{blue}$BR_1(s_2)$};
+        \node[right] at (4.5,2.25) {\color{red}$BR_2(s_1)$};
+        \draw[->, main, line width=1pt] (4.9,1) -- (4.1,0.6);
+        \node[right] at (4.9,1) {\color{main}a continuum of NE};
+        \draw[->, main, line width=1pt] (5.2,4.5) -- (4.7,4.5);
+        \node[right] at (5.2,4.5) {\color{main}NE};
+    \end{tikzpicture}
+\end{figure}
