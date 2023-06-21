@@ -69,6 +69,12 @@ To replicate the plots we create in the following sections, you must type the co
 [<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Game_Trees)/Predation_Game_with_Weak_PBE.png" title="Predation Game" alt="Predation Game" width="338.9" height="226.9"/>](./Coding/Predation_Game_with_Weak_PBE.tex)
 
 
+## Models
+
+### Ramsey Model
+[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Functions)/Ramsey_Model.png" title="Ramsey Model" alt="Ramsey Model" width="340" height="308"/>](./Coding/Ramsey_Model.tex)
+
+
 ## Shaded Areas
 
 ### Budget Set of a Consumer in a Two-Commodity Market
