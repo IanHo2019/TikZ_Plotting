@@ -71,8 +71,8 @@ To replicate the plots we create in the following sections, you must type the co
 
 ## Models
 
-### Ramsey Model
-[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Functions)/Ramsey_Model.png" title="Ramsey Model" alt="Ramsey Model" width="340" height="308"/>](./Coding/Ramsey_Model.tex)
+### Ramsey Growth Model (or Ramsey-Cass-Koopmans Model)
+[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Models)/Ramsey_Model_with_Government.png" title="Ramsey Model with Government" alt="Ramsey Model with Government" width="340" height="308"/>](./Coding/Ramsey_Model_with_Government.tex)
 
 
 ## Shaded Areas
