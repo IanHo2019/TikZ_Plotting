@@ -65,6 +65,13 @@ To replicate the plots we create in the following sections, you must type the co
 
 ## Game Trees
 
+### Entry Deterrence Game
+<div id="Entry_Deterrence_Game">
+  <a href="./Coding/Predation_Game_with_Weak_PBE.tex">
+    <img src="./Figures_(Game_Trees)/Entry_Deterrence_Game.png" title="Entry Deterrence Game" alt="Entry Deterrence Game" width="238.5" height="287.75"/>
+  </a>
+</div>
+
 ### Predation Game
 [<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Game_Trees)/Predation_Game_with_Weak_PBE.png" title="Predation Game" alt="Predation Game" width="338.9" height="226.9"/>](./Coding/Predation_Game_with_Weak_PBE.tex)
 
