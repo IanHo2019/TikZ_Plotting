@@ -47,45 +47,45 @@ To replicate the plots we create in the following sections, you must type the co
 ## Functions
 
 ### Best Response Function
-[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Functions)/Best_Response_with_Continuous_NE.png" title="Best Response with a Continuum of NE" alt="Best Response with a Continuum of NE" width="330.2" height="230.7"/>](./Coding/Best_Response_with_Continuous_NE.tex)
+[<img src="./Figures_(Functions)/Best_Response_with_Continuous_NE.png" title="Best Response with a Continuum of NE" alt="Best Response with a Continuum of NE" width="330.2" height="230.7"/>](./Coding/Best_Response_with_Continuous_NE.tex)
 
 ### Cobb-Douglas Production Function
-[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Functions)/Dynamics_of_Solow_Model.png" title="Dynamics of Solow Model" alt="Dynamics of Solow Model" width="440.6" height="275.4"/>](./Coding/Dynamics_of_Solow_Model.tex)
+[<img src="./Figures_(Functions)/Dynamics_of_Solow_Model.png" title="Dynamics of Solow Model" alt="Dynamics of Solow Model" width="440.6" height="275.4"/>](./Coding/Dynamics_of_Solow_Model.tex)
 
 ### Indifference Curves from Different Utility Functions
-[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Functions)/Indifference_Curve_1.png" title="Indifference Curve 1" alt="Indifference Curve 1" width="515.3" height="267.3"/>](./Coding/Indifference_Curve_1.tex)
+[<img src="./Figures_(Functions)/Indifference_Curve_1.png" title="Indifference Curve 1" alt="Indifference Curve 1" width="515.3" height="267.3"/>](./Coding/Indifference_Curve_1.tex)
 
-[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Functions)/Indifference_Curve_2.png" title="Indifference Curve 2" alt="Indifference Curve 2" width="504.8" height="263.5"/>](./Coding/Indifference_Curve_2.tex)
+[<img src="./Figures_(Functions)/Indifference_Curve_2.png" title="Indifference Curve 2" alt="Indifference Curve 2" width="504.8" height="263.5"/>](./Coding/Indifference_Curve_2.tex)
 
-[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Functions)/Indifference_Curve_3.png" title="Indifference Curve 3" alt="Indifference Curve 3" width="509.3" height="262.3"/>](./Coding/Indifference_Curve_3.tex)
+[<img src="./Figures_(Functions)/Indifference_Curve_3.png" title="Indifference Curve 3" alt="Indifference Curve 3" width="509.3" height="262.3"/>](./Coding/Indifference_Curve_3.tex)
 
 ### Leontief Production Function
-[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Functions)/Leontief_Production_Function.png" title="Leontief Production Function" alt="Leontief Production Function" width="363.3" height="291"/>](./Coding/Leontief_Production_Function.tex)
+[<img src="./Figures_(Functions)/Leontief_Production_Function.png" title="Leontief Production Function" alt="Leontief Production Function" width="363.3" height="291"/>](./Coding/Leontief_Production_Function.tex)
 
 
 ## Game Trees
 
 ### Entry Deterrence Game
 <div id="Entry_Deterrence_Game">
-  <a href="./Coding/Predation_Game_with_Weak_PBE.tex">
+  <a href="./Coding/Entry_Deterrence_Game.tex">
     <img src="./Figures_(Game_Trees)/Entry_Deterrence_Game.png" title="Entry Deterrence Game" alt="Entry Deterrence Game" width="238.5" height="287.75"/>
   </a>
 </div>
 
 ### Predation Game
-[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Game_Trees)/Predation_Game_with_Weak_PBE.png" title="Predation Game" alt="Predation Game" width="338.9" height="226.9"/>](./Coding/Predation_Game_with_Weak_PBE.tex)
+[<img src="./Figures_(Game_Trees)/Predation_Game_with_Weak_PBE.png" title="Predation Game" alt="Predation Game" width="338.9" height="226.9"/>](./Coding/Predation_Game_with_Weak_PBE.tex)
 
 
 ## Models
 
 ### Ramsey Growth Model (or Ramsey-Cass-Koopmans Model)
-[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Models)/Ramsey_Model_with_Government.png" title="Ramsey Model with Government" alt="Ramsey Model with Government" width="340" height="308"/>](./Coding/Ramsey_Model_with_Government.tex)
+[<img src="./Figures_(Models)/Ramsey_Model_with_Government.png" title="Ramsey Model with Government" alt="Ramsey Model with Government" width="340" height="308"/>](./Coding/Ramsey_Model_with_Government.tex)
 
 
 ## Shaded Areas
 
 ### Budget Set of a Consumer in a Two-Commodity Market
-[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Shaded_Areas)/Budget_Set.png" title="Budget Set" alt="Budget Set" width="295.3" height="291"/>](./Coding/Budget_Set.tex)
+[<img src="./Figures_(Shaded_Areas)/Budget_Set.png" title="Budget Set" alt="Budget Set" width="295.3" height="291"/>](./Coding/Budget_Set.tex)
 
 ### Input Requirement Set and Isoquant Curve
-[<img src="https://github.com/IanHo2019/TikZ_Plotting/blob/main/Figures_(Shaded_Areas)/Input_Requirement_Set.png" title="Input Requirement Set" alt="Input Requirement Set" width="309.3" height="279.3"/>](./Coding/Input_Requirement_Set.tex)
+[<img src="./Figures_(Shaded_Areas)/Input_Requirement_Set.png" title="Input Requirement Set" alt="Input Requirement Set" width="309.3" height="279.3"/>](./Coding/Input_Requirement_Set.tex)
