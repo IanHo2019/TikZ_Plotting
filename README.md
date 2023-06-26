@@ -1,5 +1,5 @@
 # Using TikZ and PGF to Plot in LaTeX
-This repository shares TikZ coding (written by Ian He and JaeSeok Oh) to create plots in LaTeX. To see the coding for any plot in the following sections, please click the figure. The hyperlink will lead you to our corresponding tex file.
+This repository shares TikZ and PGF coding (written by Ian He and JaeSeok Oh) to create plots in LaTeX. To see the coding for any plot in the following sections, please click the figure. The hyperlink will lead you to our corresponding tex file.
 
 **Contact:**
 
@@ -68,7 +68,10 @@ To replicate the plots we create in the following sections, you must type the co
 ### Entry Deterrence Game
 <div id="Entry_Deterrence_Game">
   <a href="./Coding/Entry_Deterrence_Game.tex">
-    <img src="./Figures_(Game_Trees)/Entry_Deterrence_Game.png" title="Entry Deterrence Game" alt="Entry Deterrence Game" width="238.5" height="287.75"/>
+    <img src="./Figures_(Game_Trees)/Entry_Deterrence_Game.png" title="Entry Deterrence Game" alt="Entry Deterrence Game" width="238.5" height="287.75"/>&nbsp;&nbsp;&nbsp;&nbsp;
+  </a>
+  <a href="./Coding/Modified_Entry_Deterrence_Game.tex">
+    <img src="./Figures_(Game_Trees)/Modified_Entry_Deterrence_Game.png" title="Entry Deterrence Game with Imperfect Information" alt="Entry Deterrence Game with Imperfect Information" width="175.26" height="298.68"/>
   </a>
 </div>
 
