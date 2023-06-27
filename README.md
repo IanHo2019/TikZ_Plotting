@@ -63,6 +63,15 @@ To replicate the plots we create in the following sections, you must type the co
 [<img src="./Figures_(Functions)/Leontief_Production_Function.png" title="Leontief Production Function" alt="Leontief Production Function" width="363.3" height="291"/>](./Coding/Leontief_Production_Function.tex)
 
 
+## Shaded Areas
+
+### Budget Set of a Consumer in a Two-Commodity Market
+[<img src="./Figures_(Shaded_Areas)/Budget_Set.png" title="Budget Set" alt="Budget Set" width="276.88" height="272.81"/>](./Coding/Budget_Set.tex)
+
+### Input Requirement Set and Isoquant Curve
+[<img src="./Figures_(Shaded_Areas)/Input_Requirement_Set.png" title="Input Requirement Set" alt="Input Requirement Set" width="290" height="261.88"/>](./Coding/Input_Requirement_Set.tex)
+
+
 ## Game Trees
 
 ### Entry Deterrence Game
@@ -82,15 +91,11 @@ To replicate the plots we create in the following sections, you must type the co
 ## Models
 
 ### Ramsey Growth Model (or Ramsey-Cass-Koopmans Model)
-[<img src="./Figures_(Models)/Ramsey_Model.png" title="Ramsey Model" alt="Ramsey Model" width="340" height="308"/>](./Coding/Ramsey_Model.tex)
-
-[<img src="./Figures_(Models)/Ramsey_Model_with_Government.png" title="Ramsey Model with Government" alt="Ramsey Model with Government" width="340" height="308"/>](./Coding/Ramsey_Model_with_Government.tex)
-
-
-## Shaded Areas
-
-### Budget Set of a Consumer in a Two-Commodity Market
-[<img src="./Figures_(Shaded_Areas)/Budget_Set.png" title="Budget Set" alt="Budget Set" width="295.3" height="291"/>](./Coding/Budget_Set.tex)
-
-### Input Requirement Set and Isoquant Curve
-[<img src="./Figures_(Shaded_Areas)/Input_Requirement_Set.png" title="Input Requirement Set" alt="Input Requirement Set" width="309.3" height="279.3"/>](./Coding/Input_Requirement_Set.tex)
+<div id="Ramsey_Models">
+  <a href="./Coding/Ramsey_Model.tex">
+    <img src="./Figures_(Models)/Ramsey_Model.png" title="Ramsey Model" alt="Ramsey Model" width="327.19" height="267.5"/>&nbsp;&nbsp;&nbsp;&nbsp;
+  </a>
+  <a href="./Coding/Ramsey_Model_with_Government.tex">
+    <img src="./Figures_(Models)/Ramsey_Model_with_Government.png" title="Ramsey Model with Government" alt="Ramsey Model with Government" width="308.61" height="269.17"/>
+  </a>
+</div>
