@@ -96,9 +96,9 @@ To replicate the plots we create in the following sections, you must type the co
 ### Ramsey Growth Model (or Ramsey-Cass-Koopmans Model)
 <div id="Ramsey_Models">
   <a href="./Coding/Ramsey_Model.tex">
-    <img src="./Figures_(Models)/Ramsey_Model.png" title="Ramsey Model" alt="Ramsey Model" style="width:30%"/>&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./Figures_(Models)/Ramsey_Model.png" title="Ramsey Model" alt="Ramsey Model" style="width:45%"/>&nbsp;&nbsp;&nbsp;&nbsp;
   </a>
   <a href="./Coding/Ramsey_Model_with_Government.tex">
-    <img src="./Figures_(Models)/Ramsey_Model_with_Government.png" title="Ramsey Model with Government" alt="Ramsey Model with Government" style="width:30%"/>
+    <img src="./Figures_(Models)/Ramsey_Model_with_Government.png" title="Ramsey Model with Government" alt="Ramsey Model with Government" style="width:45%"/>
   </a>
 </div>
