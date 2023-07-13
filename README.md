@@ -87,15 +87,18 @@ To replicate the plots we create in the following sections, you must type the co
 ### Predation Game
 [<img src="./Figures_(Game_Trees)/Predation_Game_with_Weak_PBE.png" title="Predation Game" alt="Predation Game" width="338.9" height="226.9"/>](./Coding/Predation_Game_with_Weak_PBE.tex)
 
+### Special Games
+[<img src="./Figures_(Game_Trees)/Forget_Others_Move.png" title="A Game in which One Player Forgets the Other Player's Move" alt="A Game in which One Player Forgets the Other Player's Move" width="445.6" height="246.7"/>](./Coding/Forget_Others_Move.tex)
+
 
 ## Models
 
 ### Ramsey Growth Model (or Ramsey-Cass-Koopmans Model)
 <div id="Ramsey_Models">
   <a href="./Coding/Ramsey_Model.tex">
-    <img src="./Figures_(Models)/Ramsey_Model.png" title="Ramsey Model" alt="Ramsey Model" width="327.19" height="267.5"/>&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./Figures_(Models)/Ramsey_Model.png" title="Ramsey Model" alt="Ramsey Model" style="width:30%"/>&nbsp;&nbsp;&nbsp;&nbsp;
   </a>
   <a href="./Coding/Ramsey_Model_with_Government.tex">
-    <img src="./Figures_(Models)/Ramsey_Model_with_Government.png" title="Ramsey Model with Government" alt="Ramsey Model with Government" width="308.61" height="269.17"/>
+    <img src="./Figures_(Models)/Ramsey_Model_with_Government.png" title="Ramsey Model with Government" alt="Ramsey Model with Government" style="width:30%"/>
   </a>
 </div>
