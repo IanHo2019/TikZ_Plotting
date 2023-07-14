@@ -14,7 +14,7 @@ TikZ and PGF are languages commonly used in [LaTeX](https://www.latex-project.or
 
 To replicate the plots we create in the following sections, you must type the codes below in your LaTeX preamble.
 ```latex
-\usepackage{graphicx, float, caption, subcaption, asymptote, pgfplots}
+\usepackage{graphicx, float, caption, subcaption, tzplot, asymptote, pgfplots}
 \pgfplotsset{compat=1.18}
 \usetikzlibrary{calc, calligraphy, decorations.pathreplacing, patterns, shapes.misc}
 
@@ -28,6 +28,11 @@ To replicate the plots we create in the following sections, you must type the co
  * The `graphicx` package ([documentation](https://ctan.org/pkg/graphicx)) provides some useful optional arguments to the `\includegraphics` command.
  * The `float` package ([documentation](https://ctan.org/pkg/float)) improves the interface for defining floating objects, such as figures and tables. By default, we can use something `[h]` (here), `t` (top), and `b` (bottom) to determine the figure positioning; however, these positioning options are not strong --- LaTeX still has some flexibility to select the best position in its mind. To precisely fix the position of a floating objects, we have to use the parameter `[H]` from `float`.
  * The `caption` ([documentation](https://ctan.org/pkg/caption)) and `subcaption` ([documentation](https://ctan.org/pkg/subcaption)) packages allow us to customize the captions and subcaptions in floating environments like figure, table, subfigure, and subtable.
+ * The `tzplot` package ([documentation](https://ctan.org/pkg/tzplot)) provides some TikZ-based macros to make it easy to draw graphs. For example,
+   * The `\tzaxes` command draws the *x*-axis and the *y*-axis quickly.
+   * The `\tzfn` command plots a function over a specified domain.
+   * The `\tzbezier` command draws a [Bézier curve](https://en.wikipedia.org/wiki/B%C3%A9zier_curve) with one or two control points from the first coordinate to the last coordinate.
+   * The `\tzdot` and `\tzcdot` commands add a label to a dot (with two optional patterns and two optional sizes).
  * The `asymptote` package ([documentation](https://ctan.org/pkg/asymptote)) provides a lot of commands for 2D and 3D high-quality level technical drawing.
  * The `pgfplots` package ([documentation](https://ctan.org/pkg/pgfplots)) allows us to draw high-quality function plots. In particular, it supports axis scaling, axis ticks custimization, axis labels custimization, legend entries, etc. Note that `pgfplots` has been written with backwards compatibility; thus, new features occasionally lead to a different behavior. Therefore, we suggest to activate explicitly new features or bugfixes by writing `\pgfplotsset{compat=1.18}` in your preamble, where `compat=1.18` is the highest compatibility level nowadays. The lowest level is `compat=1.3`.
  * `asymptote` and `pgfplots` provide basic functionalities and load the `tikz` and `pgf` packages ([documentation](https://www.ctan.org/pkg/pgf)) automatically. For special features, special libraries must be included. The libraries we use include
@@ -52,6 +57,9 @@ To replicate the plots we create in the following sections, you must type the co
 ### Cobb-Douglas Production Function
 [<img src="./Figures_(Functions)/Dynamics_of_Solow_Model.png" title="Dynamics of Solow Model" alt="Dynamics of Solow Model" width="440.6" height="275.4"/>](./Coding/Dynamics_of_Solow_Model.tex)
 
+### Engel Function
+[<img src="./Figures_(Functions)/Engel_Function.png" title="Engel Function" alt="Engel Function" width="363.3" height="291"/>](./Coding/Engel_Function.tex)
+
 ### Indifference Curves from Different Utility Functions
 [<img src="./Figures_(Functions)/Indifference_Curve_1.png" title="Indifference Curve 1" alt="Indifference Curve 1" width="515.3" height="267.3"/>](./Coding/Indifference_Curve_1.tex)
 
@@ -61,9 +69,6 @@ To replicate the plots we create in the following sections, you must type the co
 
 ### Leontief Production Function
 [<img src="./Figures_(Functions)/Leontief_Production_Function.png" title="Leontief Production Function" alt="Leontief Production Function" width="363.3" height="291"/>](./Coding/Leontief_Production_Function.tex)
-
-### Engel Function
-[<img src="./Figures_(Functions)/Engel_Function.png" title="Engel Function" alt="Engel Function" width="363.3" height="291"/>](./Coding/Engel_Function.tex)
 
 ## Shaded Areas
 
