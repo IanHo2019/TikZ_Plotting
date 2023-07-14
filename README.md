@@ -62,6 +62,8 @@ To replicate the plots we create in the following sections, you must type the co
 ### Leontief Production Function
 [<img src="./Figures_(Functions)/Leontief_Production_Function.png" title="Leontief Production Function" alt="Leontief Production Function" width="363.3" height="291"/>](./Coding/Leontief_Production_Function.tex)
 
+### Engel Function
+[<img src="./Figures_(Functions)/Engel_Function.png" title="Engel Function" alt="Engel Function" width="363.3" height="291"/>](./Coding/Engel_Function.tex)
 
 ## Shaded Areas
 
