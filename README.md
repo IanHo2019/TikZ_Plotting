@@ -95,7 +95,7 @@ To replicate the plots we create in the following sections, you must type the co
 [<img src="./Figures_(Game_Trees)/Predation_Game_with_Weak_PBE.png" title="Predation Game" alt="Predation Game" width="338.9" height="226.9"/>](./Coding/Predation_Game_with_Weak_PBE.tex)
 
 ### Special Games
-[<img src="./Figures_(Game_Trees)/Forget_Others_Move.png" title="A Game in which One Player Forgets the Other Player's Move" alt="A Game in which One Player Forgets the Other Player's Move" width="445.6" height="246.7"/>](./Coding/Forget_Others_Move.tex)
+[<img src="./Figures_(Game_Trees)/Forget_Others_Move.png" title="A Game in which One Player Forgets the Other Player's Move" alt="A Game in which One Player Forgets the Other Player's Move" style="width:60%"/>](./Coding/Forget_Others_Move.tex)
 
 [<img src="./Figures_(Game_Trees)/Forget_Own_Move.png" title="A Game in which One Player Forgets His/Her Own Move" alt="A Game in which One Player Forgets His/Her Own Move" style="width:60%"/>](./Coding/Forget_Own_Move.tex)
 
