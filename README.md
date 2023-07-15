@@ -97,6 +97,8 @@ To replicate the plots we create in the following sections, you must type the co
 ### Special Games
 [<img src="./Figures_(Game_Trees)/Forget_Others_Move.png" title="A Game in which One Player Forgets the Other Player's Move" alt="A Game in which One Player Forgets the Other Player's Move" width="445.6" height="246.7"/>](./Coding/Forget_Others_Move.tex)
 
+[<img src="./Figures_(Game_Trees)/Forget_Own_Move.png" title="A Game in which One Player Forgets His/Her Own Move" alt="A Game in which One Player Forgets His/Her Own Move" style="width:60%"/>](./Coding/Forget_Own_Move.tex)
+
 
 ## Models
 
