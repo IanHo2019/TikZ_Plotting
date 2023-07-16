@@ -81,6 +81,9 @@ To replicate the plots we create in the following sections, you must type the co
 
 ## Game Trees
 
+### Matching Pennies
+[<img src="./Figures_(Game_Trees)/Matching_Pennies_with_Nature.png" title="Matching Pennies with Nature as the Initial Node" alt="Matching Pennies with Nature as the Initial Node" style="width:75%"/>](./Coding/Matching_Pennies_with_Nature.tex)
+
 ### Entry Deterrence Game
 <div id="Entry_Deterrence_Game">
   <a href="./Coding/Entry_Deterrence_Game.tex">
