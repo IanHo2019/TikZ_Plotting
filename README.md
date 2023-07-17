@@ -102,6 +102,8 @@ To replicate the plots we create in the following sections, you must type the co
 
 [<img src="./Figures_(Game_Trees)/Forget_Own_Move.png" title="A Game in which One Player Forgets His/Her Own Move" alt="A Game in which One Player Forgets His/Her Own Move" style="width:60%"/>](./Coding/Forget_Own_Move.tex)
 
+[<img src="./Figures_(Game_Trees)/Pricing_under_Uncertainty.png" title="Pricing under Uncertainty" alt="Pricing under Uncertainty" style="width:60%"/>](./Coding/Pricing_under_Uncertainty.tex)
+
 
 ## Models
 
