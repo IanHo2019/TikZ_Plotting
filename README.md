@@ -82,15 +82,29 @@ To replicate the plots we create in the following sections, you must type the co
 ## Game Trees
 
 ### Matching Pennies
-[<img src="./Figures_(Game_Trees)/Matching_Pennies_with_Nature.png" title="Matching Pennies with Nature as the Initial Node" alt="Matching Pennies with Nature as the Initial Node" style="width:75%"/>](./Coding/Matching_Pennies_with_Nature.tex)
+<div id="Matching_Pennies">
+  <a href="./Coding/Matching_Pennies_with_Perfect_Information.tex">
+    <img src="./Figures_(Game_Trees)/Matching_Pennies_with_Perfect_Information.png" title="Matching Pennies with Perfect Information" alt="Matching Pennies with Perfect Information" style="width:35%"/>
+  </a>
+  <a href="./Coding/Matching_Pennies_with_Imperfect_Information.tex">
+    <img src="./Figures_(Game_Trees)/Matching_Pennies_with_Imperfect_Information.png" title="Matching Pennies with Imperfect Information" alt="Matching Pennies with Imperfect Information" style="width:35%" hspace="50"/>
+  </a>
+</div>
+
+<div>
+  <br>
+  <a href="./Coding/Matching_Pennies_with_Nature.tex">
+    <img src="./Figures_(Game_Trees)/Matching_Pennies_with_Nature.png" title="Matching Pennies with Nature as the Initial Node" alt="Matching Pennies with Nature as the Initial Node" style="width:75%"/>
+  </a>
+</div>
 
 ### Entry Deterrence Game
 <div id="Entry_Deterrence_Game">
   <a href="./Coding/Entry_Deterrence_Game.tex">
-    <img src="./Figures_(Game_Trees)/Entry_Deterrence_Game.png" title="Entry Deterrence Game" alt="Entry Deterrence Game" width="238.5" height="287.75"/>&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./Figures_(Game_Trees)/Entry_Deterrence_Game.png" title="Entry Deterrence Game" alt="Entry Deterrence Game" width="238.5" height="287.75"/>
   </a>
   <a href="./Coding/Modified_Entry_Deterrence_Game.tex">
-    <img src="./Figures_(Game_Trees)/Modified_Entry_Deterrence_Game.png" title="Entry Deterrence Game with Imperfect Information" alt="Entry Deterrence Game with Imperfect Information" width="175.26" height="298.68"/>
+    <img src="./Figures_(Game_Trees)/Modified_Entry_Deterrence_Game.png" title="Entry Deterrence Game with Imperfect Information" alt="Entry Deterrence Game with Imperfect Information" width="175.26" height="298.68" hspace="30"/>
   </a>
 </div>
 
