@@ -112,11 +112,32 @@ To replicate the plots we create in the following sections, you must type the co
 [<img src="./Figures_(Game_Trees)/Predation_Game_with_Weak_PBE.png" title="Predation Game" alt="Predation Game" width="338.9" height="226.9"/>](./Coding/Predation_Game_with_Weak_PBE.tex)
 
 ### Special Games
-[<img src="./Figures_(Game_Trees)/Forget_Others_Move.png" title="A Game in which One Player Forgets the Other Player's Move" alt="A Game in which One Player Forgets the Other Player's Move" style="width:60%"/>](./Coding/Forget_Others_Move.tex)
+<div>
+  <a href="./Coding/Sequential_Game_with_Imperfect_Information.tex">
+    <img src="./Figures_(Game_Trees)/Sequential_Game_with_Imperfect_Information.png" title="A Sequential Game with Imperfect Information" alt="A Sequential Game with Imperfect Information" style="width:60%"/>
+  </a>
+</div>
 
-[<img src="./Figures_(Game_Trees)/Forget_Own_Move.png" title="A Game in which One Player Forgets His/Her Own Move" alt="A Game in which One Player Forgets His/Her Own Move" style="width:60%"/>](./Coding/Forget_Own_Move.tex)
+<div>
+  <br>
+  <a href="./Coding/Forget_Others_Move.tex">
+    <img src="./Figures_(Game_Trees)/Forget_Others_Move.png" title="A Game in which One Player Forgets the Other Player's Move" alt="A Game in which One Player Forgets the Other Player's Move" style="width:60%"/>
+  </a>
+</div>
 
-[<img src="./Figures_(Game_Trees)/Pricing_under_Uncertainty.png" title="Pricing under Uncertainty" alt="Pricing under Uncertainty" style="width:60%"/>](./Coding/Pricing_under_Uncertainty.tex)
+<div>
+  <br>
+  <a href="./Coding/Forget_Own_Move.tex">
+    <img src="./Figures_(Game_Trees)/Forget_Own_Move.png" title="A Game in which One Player Forgets His/Her Own Move" alt="A Game in which One Player Forgets His/Her Own Move" style="width:60%"/>
+  </a>
+</div>
+
+<div>
+  <br>
+  <a href="./Coding/Pricing_under_Uncertainty.tex">
+    <img src="./Figures_(Game_Trees)/Pricing_under_Uncertainty.png" title="Pricing under Uncertainty" alt="Pricing under Uncertainty" style="width:60%"/>
+  </a>
+</div>
 
 
 ## Models
