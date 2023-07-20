@@ -142,12 +142,15 @@ To replicate the plots we create in the following sections, you must type the co
 
 ## Models
 
+### Product Differentiation Model
+[<img src="./Figures_(Models)/Product_Differentiation.png" title="Product Differentiation: Consumer Purchase Decisions Given Prices" alt="Product Differentiation: Consumer Purchase Decisions Given Prices" style="width:75%"/>](./Coding/Product_Differentiation.tex)
+
 ### Ramsey Growth Model (or Ramsey-Cass-Koopmans Model)
 <div id="Ramsey_Models">
   <a href="./Coding/Ramsey_Model.tex">
-    <img src="./Figures_(Models)/Ramsey_Model.png" title="Ramsey Model" alt="Ramsey Model" style="width:45%"/>&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./Figures_(Models)/Ramsey_Model.png" title="Ramsey Model" alt="Ramsey Model" style="width:45%"/>
   </a>
   <a href="./Coding/Ramsey_Model_with_Government.tex">
-    <img src="./Figures_(Models)/Ramsey_Model_with_Government.png" title="Ramsey Model with Government" alt="Ramsey Model with Government" style="width:45%"/>
+    <img src="./Figures_(Models)/Ramsey_Model_with_Government.png" title="Ramsey Model with Government" alt="Ramsey Model with Government" style="width:45%" hspace="25"/>
   </a>
 </div>
