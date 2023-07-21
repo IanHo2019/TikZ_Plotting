@@ -114,7 +114,7 @@ To replicate the plots we create in the following sections, you must type the co
 ### Bayesian Game
 <div>
   <a href="./Coding/Bayesian_Game.tex">
-    <img src="./Figures_(Game_Trees)/Bayesian_Game.png" title="Bayesian Game" alt="Bayesian Game" style="width:60%"/>
+    <img src="./Figures_(Game_Trees)/Bayesian_Game.png" title="Bayesian Game" alt="Bayesian Game" style="width:75%"/>
   </a>
 </div>
 
