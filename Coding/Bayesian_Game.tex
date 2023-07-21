@@ -1,0 +1,40 @@
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=1.5]
+        % Nature's move
+        \draw[thick] (0,0) -- (-2.5,-1) node[pos=.5,left=0.5cm,above] {Type A ($r$)};
+        \draw[thick] (0,0) -- (2.5,-1) node[pos=.5,right=0.8cm,above] {Type B ($1-r$)};
+        % Player 1's move
+        \draw[thick,fill] (-2.5,-1) -- (-3.5,-2) node[pos=.5,left=0.1cm] {\color{blue}$U$} circle (2pt);
+        \draw[thick,fill] (-2.5,-1) -- (-1.5,-2) node[pos=.5,right=0.1cm] {\color{blue}$D$} circle (2pt);
+        \draw[thick,fill] (2.5,-1) -- (1.5,-2) node[pos=.5,left=0.1cm] {\color{blue}$U$} circle (2pt);
+        \draw[thick,fill] (2.5,-1) -- (3.5,-2) node[pos=.5,right=0.1cm] {\color{blue}$D$} circle (2pt);
+        % Player 2's move
+        \draw[thick] (-3.5,-2) -- (-4,-3) node[pos=.5,left=0.1cm] {\color{red}$L$};
+        \draw[thick] (-3.5,-2) -- (-3,-3) node[pos=.5,right=0.1cm] {\color{red}$R$};
+        \draw[thick] (-1.5,-2) -- (-2,-3) node[pos=.5,left=0.1cm] {\color{red}$L$};
+        \draw[thick] (-1.5,-2) -- (-1,-3) node[pos=.5,right=0.1cm] {\color{red}$R$};
+        \draw[thick] (1.5,-2) -- (1,-3) node[pos=.5,left=0.1cm] {\color{red}$L$};
+        \draw[thick] (1.5,-2) -- (2,-3) node[pos=.5,right=0.1cm] {\color{red}$R$};
+        \draw[thick] (3.5,-2) -- (3,-3) node[pos=.5,left=0.1cm] {\color{red}$L$};
+        \draw[thick] (3.5,-2) -- (4,-3) node[pos=.5,right=0.1cm] {\color{red}$R$};
+        % Terminal nodes and payoffs
+        \fill (-4,-3) circle (2pt) node[below=0.1cm] {$\begin{pmatrix} 1 \\ 2 \end{pmatrix}$};
+        \fill (-3,-3) circle (2pt) node[below=0.1cm] {$\begin{pmatrix} 3 \\ -1 \end{pmatrix}$};
+        \fill (-2,-3) circle (2pt) node[below=0.1cm] {$\begin{pmatrix} 0 \\ 5 \end{pmatrix}$};
+        \fill (-1,-3) circle (2pt) node[below=0.1cm] {$\begin{pmatrix} -1 \\ -2 \end{pmatrix}$};
+        \fill (1,-3) circle (2pt) node[below=0.1cm] {$\begin{pmatrix} 3 \\ -2 \end{pmatrix}$};
+        \fill (2,-3) circle (2pt) node[below=0.1cm] {$\begin{pmatrix} 1 \\ 2 \end{pmatrix}$};
+        \fill (3,-3) circle (2pt) node[below=0.1cm] {$\begin{pmatrix} 4 \\ 3 \end{pmatrix}$};
+        \fill (4,-3) circle (2pt) node[below=0.1cm] {$\begin{pmatrix} 2 \\ -1 \end{pmatrix}$};
+        \node[above] at (5.5,-3) {Payoffs};
+        \node[below=0.1cm] at (5.5,-3) {$\begin{pmatrix} \text{Player 1} \\ \text{Player 2} \end{pmatrix}$};
+        % Initial and decision nodes
+        \node[above=0.1cm] at (0,0) {Nature};
+        \draw[fill=white, thick] (0,0) circle[radius=2pt];
+        \fill (-2.5,-1) circle (2pt) node[left=0.1cm] {\color{blue}Player 1};
+        \fill (2.5,-1) circle (2pt) node[right=0.1cm] {\color{blue}Player 1};
+        \node[rounded rectangle, draw, dashed, inner xsep=5.6cm, inner ysep=0.26cm] at (0,-2) {};
+        \node at (0,-2) {\color{red}Player 2};
+    \end{tikzpicture}
+\end{figure}
