@@ -111,15 +111,15 @@ To replicate the plots we create in the following sections, you must type the co
 ### Predation Game
 [<img src="./Figures_(Game_Trees)/Predation_Game_with_Weak_PBE.png" title="Predation Game" alt="Predation Game" width="338.9" height="226.9"/>](./Coding/Predation_Game_with_Weak_PBE.tex)
 
-### Special Games
+### Bayesian Game
 <div>
-  <a href="./Coding/Sequential_Game_with_Imperfect_Information.tex">
-    <img src="./Figures_(Game_Trees)/Sequential_Game_with_Imperfect_Information.png" title="A Sequential Game with Imperfect Information" alt="A Sequential Game with Imperfect Information" style="width:60%"/>
+  <a href="./Coding/Bayesian_Game.tex">
+    <img src="./Figures_(Game_Trees)/Bayesian_Game.png" title="Bayesian Game" alt="Bayesian Game" style="width:60%"/>
   </a>
 </div>
 
+### Special Games
 <div>
-  <br>
   <a href="./Coding/Forget_Others_Move.tex">
     <img src="./Figures_(Game_Trees)/Forget_Others_Move.png" title="A Game in which One Player Forgets the Other Player's Move" alt="A Game in which One Player Forgets the Other Player's Move" style="width:60%"/>
   </a>
