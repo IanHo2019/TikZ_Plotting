@@ -118,6 +118,13 @@ To replicate the plots we create in the following sections, you must type the co
   </a>
 </div>
 
+<div>
+  <br>
+  <a href="./Coding/Prisoner_Dilemma_with_Incomplete_Information.tex">
+    <img src="./Figures_(Game_Trees)/Prisoner_Dilemma_with_Incomplete_Information.png" title="Prisoners' Dilemma with Incomplete Information" alt="Prisoners' Dilemma with Incomplete Information" style="width:75%"/>
+  </a>
+</div>
+
 ### Special Games
 <div>
   <a href="./Coding/Forget_Others_Move.tex">
