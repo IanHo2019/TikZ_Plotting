@@ -1,0 +1,21 @@
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=1.5]
+        % Axes
+        \draw[->] (0, 0) -- (5.0, 0) node[right] {Quantity};
+        \draw[->] (0, 0) -- (0, 5.0) node[above] {Price};
+        % Dotted line
+        \draw[densely dotted, line width=1pt] (4/2.8,0) -- (4/2.8,-4/2.8+4.5) -- (0,-4/2.8+4.5);
+        % Demand curve and marginal revenue curve
+        \draw[domain=0:4.5, smooth, variable=\x, red, line width=2pt] plot ({\x}, {-\x + 4.5});
+        \draw[domain=0:2.25, smooth, variable=\x, red, line width=2pt] plot ({\x}, {-2*\x + 4.5});
+        % Marginal cost curve
+        \draw[domain=0:4.5, smooth, variable=\x, blue, line width=2pt] plot ({\x}, {0.8*\x + 0.5});
+        % Labels
+        \node[below] at (4/2.8,0) {$y_m$};
+        \node[left] at (0,-4/2.8+4.5) {$p_m$};
+        \node[right] at (4.5,4.1) {$MC$};
+        \node[right] at (4,0.6) {Demand};
+        \node[right] at (2,0.6) {$MR$};
+    \end{tikzpicture}
+\end{figure}
