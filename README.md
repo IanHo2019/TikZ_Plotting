@@ -149,6 +149,9 @@ To replicate the plots we create in the following sections, you must type the co
 
 ## Models
 
+### Monopoly Market Model
+[<img src="./Figures_(Models)/Monopoly_Output.png" title="Determining the Monopoly Output" alt="Determining the Monopoly Output" style="width:45%"/>](./Coding/Monopoly_Output.tex)
+
 ### Product Differentiation Model
 [<img src="./Figures_(Models)/Product_Differentiation.png" title="Product Differentiation: Consumer Purchase Decisions Given Prices" alt="Product Differentiation: Consumer Purchase Decisions Given Prices" style="width:75%"/>](./Coding/Product_Differentiation.tex)
 
