@@ -125,7 +125,7 @@ To replicate the plots we create in the following sections, you must type the co
   </a>
 </div>
 
-### Special Games
+### More Games
 <div>
   <a href="./Coding/Forget_Others_Move.tex">
     <img src="./Figures_(Game_Trees)/Forget_Others_Move.png" title="A Game in which One Player Forgets the Other Player's Move" alt="A Game in which One Player Forgets the Other Player's Move" style="width:60%"/>
@@ -143,6 +143,13 @@ To replicate the plots we create in the following sections, you must type the co
   <br>
   <a href="./Coding/Pricing_under_Uncertainty.tex">
     <img src="./Figures_(Game_Trees)/Pricing_under_Uncertainty.png" title="Pricing under Uncertainty" alt="Pricing under Uncertainty" style="width:60%"/>
+  </a>
+</div>
+
+<div>
+  <br>
+  <a href="./Coding/Education_Signal.tex">
+    <img src="./Figures_(Game_Trees)/Education_Signal.png" title="The Extensive Form of the Education Signaling Game" alt="The Extensive Form of the Education Signaling Game" style="width:60%"/>
   </a>
 </div>
 
