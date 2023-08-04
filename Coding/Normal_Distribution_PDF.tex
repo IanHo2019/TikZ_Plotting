@@ -1,0 +1,12 @@
+\begin{figure}[H]
+    \centering
+    \pgfmathdeclarefunction{gauss}{2}{\pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}}
+    \begin{tikzpicture}
+        \begin{axis}[no markers, domain=0:10, samples=100, axis lines*=left, ymax=0.45, xmax=5.5, xlabel={$Z$}, ylabel={Density}, height=7cm, width=12cm, enlargelimits=false, clip=false, axis on top, legend cell align=left, legend style={draw=none}, legend style={at={(1,1), anchor=north west}}]
+            \addplot [blue, domain=-5:5, line width=1] {gauss(0,1)};
+            \addlegendentry{$\mu=0,\hphantom{5,}\hphantom{0}\sigma^2=1$}
+            \addplot [red, domain=-5:5, line width=1] {gauss(0.5,1.5)};
+            \addlegendentry{$\mu=0.5,\hphantom{0} \sigma^2=1.5$}
+        \end{axis}
+    \end{tikzpicture}
+\end{figure}
