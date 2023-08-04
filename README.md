@@ -70,6 +70,16 @@ To replicate the plots we create in the following sections, you must type the co
 ### Leontief Production Function
 [<img src="./Figures_(Functions)/Leontief_Production_Function.png" title="Leontief Production Function" alt="Leontief Production Function" width="363.3" height="291"/>](./Coding/Leontief_Production_Function.tex)
 
+## Probability Distributions
+
+### Normal Distribution $N(\mu, \sigma^2)$
+<div>
+  <a href="./Coding/Normal_Distribution_PDF.tex">
+    <img src="./Figures_(Probability_Distributions)/Normal_Distribution_PDF.png" title="Probability Density Functions of Two Normal Distributions" alt="Probability Density Functions of Two Normal Distributions" style="width:50%"/>
+  </a>
+</div>
+
+
 ## Shaded Areas
 
 ### Budget Set of a Consumer in a Two-Commodity Market
