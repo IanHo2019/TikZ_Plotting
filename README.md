@@ -80,7 +80,7 @@ To replicate the plots we create in the following sections, you must type the co
 </div>
 
 
-### Normal Distribution $\chi^2(k)$
+### Chi-Squared Distribution $\chi^2(k)$
 <div>
   <a href="./Coding/Chi2_Distribution_PDF.tex">
     <img src="./Figures_(Probability_Distributions)/Chi2_Distribution_PDF.png" title="Probability Density Functions of Chi-Squared Distributions" alt="Probability Density Functions of Chi-Squared Distributions" style="width:50%"/>
