@@ -1,0 +1,34 @@
+\begin{figure}[H]
+    \centering
+    \definecolor{lilac}{HTML}{aa00aa}
+    \pgfplotscreateplotcyclelist{mylist}{{lilac},{red},{orange},{cyan},{blue},{black}}
+    \begin{tikzpicture}
+        \begin{axis}[
+            width = 16cm,
+            height = 9cm,
+            axis x line = middle,
+            axis y line = middle,
+            grid  = major,
+            grid style = {dashed, gray!30},
+            domain = 0.01:8,
+            restrict y to domain = 0:1,
+            axis background/.style = {fill=white},
+            xlabel = $x$,
+            ylabel = $F_X(x)$,
+            tick align = outside,
+            legend style= {at={(1, 1), anchor=north west}},
+            enlargelimits = true,
+            every axis plot/.append style = {very thick},
+            cycle list name = mylist]
+        \foreach \k in {1, 3, 5, 7, 9} {
+            \addplot gnuplot[raw gnuplot] {
+                igamma2(a,x) = igamma(a,x)*gamma(a);
+                chisq(x,k) = igamma2(k/2.0, x/2.0) / gamma(k/2.0);
+                set xrange [0:8];
+                set yrange [0:1];
+                samples = 1000;
+                plot chisq(x,\k)};
+            \addlegendentryexpanded{$n = \k$}}
+        \end{axis}
+    \end{tikzpicture}
+\end{figure}
