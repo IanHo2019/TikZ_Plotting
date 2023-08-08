@@ -90,7 +90,14 @@ To replicate the plots we create in the following sections, you must type the co
 <div>
   <br>
   <a href="./Coding/Chi2_Distribution_CDF.tex">
-    <img src="./Figures_(Probability_Distributions)/Chi2_Distribution_CDF.png" title="Cumulative Distribution Functions of Chi-Squared Distributions" alt="Cumulative Distribution Functions of Chi-Squared Distributions" style="width:50%"/>
+    <img src="./Figures_(Probability_Distributions)/Chi2_Distribution_CDF.png" title="Cumulative Distribution Functions of Chi-Squared Distributions" alt="Cumulative Distribution Functions of Chi-Squared Distributions" style="width:55%"/>
+  </a>
+</div>
+
+### *F* Distribution $F(n_1, n_2)$
+<div>
+  <a href="./Coding/F_Distribution_PDF.tex">
+    <img src="./Figures_(Probability_Distributions)/F_Distribution_PDF.png" title="Probability Density Functions of F Distributions" alt="Probability Density Functions of F Distributions" style="width:55%"/>
   </a>
 </div>
 
