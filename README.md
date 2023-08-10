@@ -83,7 +83,7 @@ To replicate the plots we create in the following sections, you must type the co
 ### Chi-Squared Distribution $\chi^2(n)$
 <div>
   <a href="./Coding/Chi2_Distribution_PDF.tex">
-    <img src="./Figures_(Probability_Distributions)/Chi2_Distribution_PDF.png" title="Probability Density Functions of Chi-Squared Distributions" alt="Probability Density Functions of Chi-Squared Distributions" style="width:50%"/>
+    <img src="./Figures_(Probability_Distributions)/Chi2_Distribution_PDF.png" title="Probability Density Functions of Chi-Squared Distributions" alt="Probability Density Functions of Chi-Squared Distributions" style="width:45%"/>
   </a>
 </div>
 
@@ -98,6 +98,13 @@ To replicate the plots we create in the following sections, you must type the co
 <div>
   <a href="./Coding/F_Distribution_PDF.tex">
     <img src="./Figures_(Probability_Distributions)/F_Distribution_PDF.png" title="Probability Density Functions of F Distributions" alt="Probability Density Functions of F Distributions" style="width:55%"/>
+  </a>
+</div>
+
+<div>
+  <br>
+  <a href="./Coding/F_Distribution_CDF.tex">
+    <img src="./Figures_(Probability_Distributions)/F_Distribution_CDF.png" title="Cumulative Distribution Functions of F Distributions" alt="Cumulative Distribution Functions of F Distributions" style="width:55%"/>
   </a>
 </div>
 
