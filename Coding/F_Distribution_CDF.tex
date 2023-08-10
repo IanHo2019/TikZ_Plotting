@@ -1,0 +1,58 @@
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            axis x line = middle,
+            axis y line = middle,
+            grid  = major,
+            width = 16cm,
+            height = 9cm,
+            grid style = {dashed, gray!30},
+            domain = 0.01:8,
+            restrict y to domain = 0:1,
+            axis background/.style = {fill=white},
+            xlabel = $x$,
+            ylabel = $F_X(x)$,
+            tick align = outside,
+            enlargelimits = true,
+            every axis plot/.append style = {very thick},
+            legend style = {at={(0.9, 0.5), anchor=north west}},
+            legend cell align = left
+        ]
+            \addplot[very thick,purple] gnuplot[raw gnuplot] {
+                F(x,d1,d2) = ibeta(d1/2.0, d2/2.0, d1*x/(d1*x+d2));
+                set xrange [0:8];
+                set yrange [0:1];
+                samples=200;
+                plot F(x,1,1)};
+            \addlegendentry{$n_1=1,\hphantom{000} n_2=1$}
+            \addplot[very thick,red] gnuplot[raw gnuplot] {
+                F(x,d1,d2) = ibeta(d1/2.0, d2/2.0, d1*x/(d1*x+d2));
+                set xrange [0:8];
+                set yrange [0:1];
+                samples=200;
+                plot F(x,2,1)};
+            \addlegendentry{$n_1=2,\hphantom{000} n_2=1$}
+            \addplot[very thick,orange] gnuplot[raw gnuplot] {%
+                F(x,d1,d2) = ibeta(d1/2.0, d2/2.0, d1*x/(d1*x+d2));
+                set xrange [0:8];
+                set yrange [0:1];
+                samples=200;
+                plot F(x,5,2)};
+            \addlegendentry{$n_1=5,\hphantom{000} n_2=2$}
+            \addplot[very thick,cyan] gnuplot[raw gnuplot] {%
+                F(x,d1,d2) = ibeta(d1/2.0, d2/2.0, d1*x/(d1*x+d2));
+                set xrange [0:8];
+                set yrange [0:1];
+                samples=200;
+                plot F(x,10,1)};
+            \addlegendentry{$n_1=10,\hphantom{00} n_2=1$}
+            \addplot[very thick,blue] gnuplot[raw gnuplot] {%
+                F(x,d1,d2) = ibeta(d1/2.0, d2/2.0, d1*x/(d1*x+d2));
+                set xrange [0:8];
+                set yrange [0:1];
+                samples=200;
+                plot F(x,100,100)}; \addlegendentry{$n_1=100,\hphantom{0} n_2=100$}
+        \end{axis}
+    \end{tikzpicture}
+\end{figure}
