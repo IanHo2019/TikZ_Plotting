@@ -108,6 +108,9 @@ To replicate the plots we create in the following sections, you must type the co
   </a>
 </div>
 
+### Student *t* Distribution $t(n)$
+[<img src="./Figures_(Probability_Distributions)/t_Distribution_PDF.png" title="Probability Density Functions of Student t Distributions" alt="Probability Density Functions of Student t Distributions" style="width:50%"/>](./Coding/t_Distribution_PDF.tex)
+
 
 ## Shaded Areas
 
