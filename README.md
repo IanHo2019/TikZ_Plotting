@@ -72,6 +72,9 @@ To replicate the plots we create in the following sections, you must type the co
 
 ## Probability Distributions
 
+### Poisson Distribution $Pois(\lambda)$
+[<img src="./Figures_(Probability_Distributions)/Poisson_Distribution_PMF.png" title="Probability Mass Functions of Poisson Distributions" alt="Probability Mass Functions of Poisson Distributions" style="width:55%"/>](./Coding/Poisson_Distribution_PMF.tex)
+
 ### Normal Distribution $N(\mu, \sigma^2)$
 <div>
   <a href="./Coding/Normal_Distribution_PDF.tex">
