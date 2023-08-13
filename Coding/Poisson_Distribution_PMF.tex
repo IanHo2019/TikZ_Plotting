@@ -1,0 +1,28 @@
+\begin{figure}[H]
+    \centering
+    \pgfmathdeclarefunction{poisson}{1}{\pgfmathparse{(#1^x)*exp(-#1)/(x!)}}
+    \begin{tikzpicture}
+        \begin{axis}[
+            axis x line = center,
+            axis y line = center,
+            xtick = {0,2,...,18},
+            ytick = {0.1,0.2,...,0.4},
+            domain = 0:19,
+            samples = 20,
+            xlabel = {$k$},
+            ylabel = {$Pr(X=k)$},
+            xlabel style = {right},
+            ylabel style = {above left},
+            ymax = 0.48,
+            xmax = 20,
+            x post scale = 2
+        ]
+            \addplot+[ycomb,blue,thick] {poisson(1))};
+            \addlegendentry{$\lambda = 1$}
+            \addplot+[ycomb,red,thick] {poisson(4))};
+            \addlegendentry{$\lambda = 4$}
+            \addplot+[ycomb,brown,thick] {poisson(9))};
+            \addlegendentry{$\lambda = 9$};
+        \end{axis}
+    \end{tikzpicture}
+\end{figure}
