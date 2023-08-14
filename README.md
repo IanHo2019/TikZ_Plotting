@@ -72,8 +72,11 @@ To replicate the plots we create in the following sections, you must type the co
 
 ## Probability Distributions
 
+### Binomial Distribution $Binomial(n,p)$
+[<img src="./Figures_(Probability_Distributions)/Binomial_Distribution_PMF.png" title="Probability Mass Functions of Binomial(30, p)" alt="Probability Mass Functions of Binomial(30, p)" style="width:50%"/>](./Coding/Binomial_Distribution_PMF.tex)
+
 ### Poisson Distribution $Pois(\lambda)$
-[<img src="./Figures_(Probability_Distributions)/Poisson_Distribution_PMF.png" title="Probability Mass Functions of Poisson Distributions" alt="Probability Mass Functions of Poisson Distributions" style="width:55%"/>](./Coding/Poisson_Distribution_PMF.tex)
+[<img src="./Figures_(Probability_Distributions)/Poisson_Distribution_PMF.png" title="Probability Mass Functions of Poisson Distributions" alt="Probability Mass Functions of Poisson Distributions" style="width:60%"/>](./Coding/Poisson_Distribution_PMF.tex)
 
 ### Normal Distribution $N(\mu, \sigma^2)$
 <div>
@@ -81,7 +84,6 @@ To replicate the plots we create in the following sections, you must type the co
     <img src="./Figures_(Probability_Distributions)/Normal_Distribution_PDF.png" title="Probability Density Functions of Two Normal Distributions" alt="Probability Density Functions of Two Normal Distributions" style="width:50%"/>
   </a>
 </div>
-
 
 ### Chi-Squared Distribution $\chi^2(n)$
 <div>
