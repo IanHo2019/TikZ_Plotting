@@ -128,6 +128,8 @@ To replicate the plots we create in the following sections, you must type the co
 ### Input Requirement Set and Isoquant Curve
 [<img src="./Figures_(Shaded_Areas)/Input_Requirement_Set.png" title="Input Requirement Set" alt="Input Requirement Set" width="290" height="261.88"/>](./Coding/Input_Requirement_Set.tex)
 
+### Welfare Implication of Monopolistic Market
+[<img src="./Figures_(Shaded_Areas)/Welfare_Implication_Monopoly.png" title="Welfare Impication of Monopolistic Market" alt="Welfare Impication of Monopolistic Market" width="380" height="261.88"/>](./Coding/Welfare_Implication_Monopoly.tex)
 
 ## Game Trees
 
