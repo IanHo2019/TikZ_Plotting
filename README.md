@@ -122,6 +122,13 @@ To replicate the plots we create in the following sections, you must type the co
 
 ## Shaded Areas
 
+### Venn Diagrams
+<div>
+  <a href="./Coding/Subset.tex">
+    <img src="./Figures_(Shaded_Areas)/Subset.png" title="A is a Proper Subset of B" alt="A is a Proper Subset of B" style="width:30%"/>
+  </a>
+</div>
+
 ### Budget Set of a Consumer in a Two-Commodity Market
 [<img src="./Figures_(Shaded_Areas)/Budget_Set.png" title="Budget Set" alt="Budget Set" width="276.88" height="272.81"/>](./Coding/Budget_Set.tex)
 
@@ -223,3 +230,9 @@ To replicate the plots we create in the following sections, you must type the co
     <img src="./Figures_(Models)/Ramsey_Model_with_Government.png" title="Ramsey Model with Government" alt="Ramsey Model with Government" style="width:45%" hspace="25"/>
   </a>
 </div>
+
+
+# References
+  * [Draw an Ellipse in TikZ](https://latexdraw.com/draw-an-ellipse-in-tikz)
+  * [Draw Curly Braces in TikZ](https://latexdraw.com/how-to-draw-curly-braces-in-tikz)
+  * [TikZ arrows](https://latexdraw.com/exploring-tikz-arrows)
