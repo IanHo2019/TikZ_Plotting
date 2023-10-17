@@ -125,7 +125,14 @@ To replicate the plots we create in the following sections, you must type the co
 ### Venn Diagrams
 <div>
   <a href="./Coding/Subset.tex">
-    <img src="./Figures_(Shaded_Areas)/Subset.png" title="A is a Proper Subset of B" alt="A is a Proper Subset of B" style="width:30%"/>
+    <img src="./Figures_(Shaded_Areas)/Subset.png" title="A is a Proper Subset of B" alt="A is a Proper Subset of B" style="width:20%"/>
+  </a>
+</div>
+
+<div>
+  <br>
+  <a href="./Coding/Union_and_Intersection.tex">
+    <img src="./Figures_(Shaded_Areas)/Union_and_Intersection.png" title="Union and Intersection" alt="Union and Intersection" style="width:50%"/>
   </a>
 </div>
 
