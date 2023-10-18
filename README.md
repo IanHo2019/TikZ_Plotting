@@ -136,6 +136,13 @@ To replicate the plots we create in the following sections, you must type the co
   </a>
 </div>
 
+<div>
+  <br>
+  <a href="./Coding/Complement.tex">
+    <img src="./Figures_(Shaded_Areas)/Complement.png" title="The Complement of Set A" alt="The Complement of Set A" style="width:20%"/>
+  </a>
+</div>
+
 ### Budget Set of a Consumer in a Two-Commodity Market
 [<img src="./Figures_(Shaded_Areas)/Budget_Set.png" title="Budget Set" alt="Budget Set" width="276.88" height="272.81"/>](./Coding/Budget_Set.tex)
 
