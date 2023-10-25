@@ -16,7 +16,7 @@ To replicate the plots we create in the following sections, you must type the co
 ```latex
 \usepackage{graphicx, float, caption, subcaption, tzplot, asymptote, pgfplots}
 \pgfplotsset{compat=1.18}
-\usetikzlibrary{calc, calligraphy, decorations.pathreplacing, patterns, shapes.misc}
+\usetikzlibrary{calc, calligraphy, decorations.pathreplacing, fit, patterns, shadows, shapes.geometric, shapes.misc}
 
 \usepackage{xcolor}
 \definecolor{main}{RGB}{0,166,82}
@@ -39,7 +39,10 @@ To replicate the plots we create in the following sections, you must type the co
    * `calc` (making complex coordinate calculations);
    * `calligraphy` (enabling calligraphic style drawings);
    * `decorations.pathreplacing` (defining decorations that replace the to-be-decorated path by another path);
+   * `fit` (defining options for fitting a node so that it contains a set of coordinates);
    * `patterns` (providing different patterns for filling in area);
+   * `shadows` (helping add a partly transparent shadow to a path or node);
+   * `shapes.geometric` (defining some shapes such as ellipses and polygons);
    * `shapes.misc` (defining additional shapes).
  * The `xcolor` package ([documentation](https://ctan.org/pkg/xcolor)) allows us to select colors for hyper references, url links, plotting figures, etc. The basic color (e.g., blue and red) can be used directly by typing `\color{color_name}` to use it in the document. If additional colors are needed, we suggest to name the color first (for convenient future use) by the `\definecolor{new_color_name}{RGB}{#,#,#}` command, and then use the `\color{new_color_name}` command. The [RGB model](https://en.wikipedia.org/wiki/RGB_color_model) is our preferred model, but other models (e.g., `rgb`, `HTML`, `HSB`, etc.) are also available. There are some good websites to search for color codes:
    * For RGB model, see [here](https://www.rapidtables.com/web/color/RGB_Color.html).
