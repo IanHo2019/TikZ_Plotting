@@ -5,7 +5,7 @@ This repository shares TikZ and PGF coding (written by Ian He and JaeSeok Oh) to
 
 :disguised_face: Ian: ianho0815@outlook.com.
   
-:sunglasses: JaeSeok: jaeseok@ou.edu.
+:sunglasses: JaeSeok: ohjae@iu.edu.
 
 Comments are always welcomed!
 
